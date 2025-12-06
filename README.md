@@ -26,8 +26,11 @@
   - A modern interface that makes video generation simple and accessible.
   - Real-time loading indicators with creative messages keep you informed.
   - Easy-to-use controls for downloading, retrying, extending, or starting a new video.
-
+## Screenshot 1
 ![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/Veo-Studio%20.png)
+
+## Screenshot 2
+
 ![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/veo-studio-pc-edition.png)
   - **Download the App**:
 ## Releases Page;
