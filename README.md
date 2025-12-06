@@ -27,7 +27,7 @@
   - Real-time loading indicators with creative messages keep you informed.
   - Easy-to-use controls for downloading, retrying, extending, or starting a new video.
 
-![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/veodesktopstudio.png)
+![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/Veo-Studio%20.png)
 
   - **Download the App**:
 ## Releases Page;
