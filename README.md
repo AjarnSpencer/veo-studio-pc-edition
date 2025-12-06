@@ -28,7 +28,7 @@
   - Easy-to-use controls for downloading, retrying, extending, or starting a new video.
 
 ![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/Veo-Studio%20.png)
-
+![VEO Desktop Studio](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/veo-studio-pc-edition.png)
   - **Download the App**:
 ## Releases Page;
 Download the latest releases here; https://github.com/AjarnSpencer/veo-studio-pc-edition/releases
