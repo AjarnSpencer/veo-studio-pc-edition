@@ -131,7 +131,7 @@ The application will automatically use this key, and you will not be prompted in
 
 -   **Frontend**: React with TypeScript
 -   **Styling**: Tailwind CSS
--   **Icons**: Lucide React
+-   **Icons**: Nano Banana 2
 -   **Video Generation**: Google Gemini API (`@google/genai`) using the Veo model.
 -   **Build Tool**: Vite
 
