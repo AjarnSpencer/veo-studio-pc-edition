@@ -94,7 +94,7 @@ This project is a web application that can be run on your computer (Windows, mac
 1.  **Clone the Repository**
     Open your terminal (like Command Prompt, PowerShell, or Terminal) and run the following commands:
     ```bash
-    git clone https://github.com/google-gemini-v-veo-model/veo-studio-pc-edition.git
+    git clone https://github.com/AjarnSpencer/veo-studio-pc-edition.git
     cd veo-studio-pc-edition
     ```
 
