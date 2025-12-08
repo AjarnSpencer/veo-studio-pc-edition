@@ -1,7 +1,7 @@
 # Veo Studio PC Edition
 *by Ajarn Spencer Littlewood*
 
-![VEO Desktop Studio Icon](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/veodesktopstudio.png)
+![VEO Desktop Studio Icon](https://github.com/AjarnSpencer/veo-studio-pc-edition/blob/main/icons/veodesktopstudiopc.png)
 
 ### Describe any scene and get a stunning video in seconds. Veo Studio is an effortless, web-based video generator powered by Google's state-of-the-art Veo model.
 
