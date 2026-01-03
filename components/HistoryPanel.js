@@ -1,0 +1,11 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+*/
+import React from 'react';
+import { XMarkIcon } from './icons';
+const HistoryPanel = ({ isOpen, onClose, history, onSelect, }) => {
+    return (_jsxs(_Fragment, { children: [_jsx("div", { className: `fixed inset-0 bg-black/60 z-30 transition-opacity ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`, onClick: onClose }), _jsx("div", { className: `fixed top-0 right-0 h-full w-full max-w-sm bg-[#1c1c1e] border-l border-gray-700 shadow-2xl z-40 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`, children: _jsxs("div", { className: "flex flex-col h-full", children: [_jsxs("header", { className: "flex items-center justify-between p-4 border-b border-gray-700", children: [_jsx("h2", { className: "text-xl font-semibold text-white", children: "Session History" }), _jsx("button", { onClick: onClose, className: "p-2 rounded-full text-gray-400 hover:text-white hover:bg-gray-700 transition-colors", "aria-label": "Close history panel", children: _jsx(XMarkIcon, { className: "w-6 h-6" }) })] }), _jsx("div", { className: "flex-grow overflow-y-auto p-4", children: history.length === 0 ? (_jsx("div", { className: "flex items-center justify-center h-full text-gray-500", children: _jsx("p", { children: "Generated videos will appear here." }) })) : (_jsx("ul", { className: "space-y-4", children: history.map(({ id, thumbnailUrl, item }) => (_jsx("li", { children: _jsxs("button", { onClick: () => onSelect(item), className: "w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700/50 transition-colors text-left group", children: [_jsx("div", { className: "flex-shrink-0 w-24 h-16 bg-black rounded-md overflow-hidden", children: _jsx("img", { src: thumbnailUrl, alt: "Video thumbnail", className: "w-full h-full object-cover" }) }), _jsxs("div", { className: "flex-grow overflow-hidden", children: [_jsx("p", { className: "text-sm text-gray-300 group-hover:text-white truncate", children: item.config.prompt || 'Video generation' }), _jsx("p", { className: "text-xs text-gray-500", children: item.config.mode })] })] }) }, id))) })) })] }) })] }));
+};
+export default HistoryPanel;

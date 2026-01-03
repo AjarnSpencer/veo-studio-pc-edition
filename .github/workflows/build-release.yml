@@ -7,6 +7,10 @@ on:
 
 jobs:
   release:
+    # Grant permissions to the job to create a release
+    permissions:
+      contents: write
+
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -20,7 +24,8 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          # Set Node.js version to 20, as required by dependencies
+          node-version: 20
 
       - name: Install dependencies
         run: npm install

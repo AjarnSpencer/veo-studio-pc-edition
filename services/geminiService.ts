@@ -130,6 +130,10 @@ export const generateVideo = async (
     }
     const videoObject = firstVideo.video;
 
+    if (!videoObject.uri) {
+      throw new Error('Generated video object is missing a URI.');
+    }
+
     const url = decodeURIComponent(videoObject.uri);
     console.log('Fetching video from:', url);
 

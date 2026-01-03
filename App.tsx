@@ -46,7 +46,7 @@ const App: React.FC = () => {
     const checkApiKey = async () => {
       if (isAiStudio) {
         try {
-          if (!(await window.aistudio.hasSelectedApiKey())) {
+          if (window.aistudio && !(await window.aistudio.hasSelectedApiKey())) {
             setIsApiKeyDialogOpen(true);
           }
         } catch (error) {
@@ -73,7 +73,7 @@ const App: React.FC = () => {
   const preGenerationKeyCheck = async () => {
     if (isAiStudio) {
       try {
-        if (!(await window.aistudio.hasSelectedApiKey())) {
+        if (window.aistudio && !(await window.aistudio.hasSelectedApiKey())) {
           setIsApiKeyDialogOpen(true);
           return false;
         }
@@ -159,7 +159,7 @@ const App: React.FC = () => {
 
   const handleApiKeyDialogContinue = async () => {
     if (isAiStudio) {
-      await window.aistudio.openSelectKey();
+      await window.aistudio?.openSelectKey();
     }
     setIsApiKeyDialogOpen(false);
     if (appState === AppState.ERROR && lastConfig) {
